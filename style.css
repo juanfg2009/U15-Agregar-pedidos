@@ -1,0 +1,117 @@
+
+/* Estilos generales */
+body {
+    height: 100vh;
+    margin: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: #1e2432;
+}
+
+/* Contenedor principal */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Inputs */
+input {
+    font-size: 1.5rem;
+    text-align: center;
+    height: 25px;
+    padding: 5px 5px 10px;
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    color: white;
+}
+
+/* Placeholder */
+input::placeholder {
+    color: white;
+}
+
+/* Botones */
+button {
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    padding: 15px 20px;
+    margin-left: 15px;
+    background-color: #ff1e42;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* Efecto al pasar el cursor */
+button:hover {
+    background-color: #c3112d;
+}
+
+/* Datos del pedido */
+.datos-pedido {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin: 25px 0;
+}
+
+/* Contenedor de botones */
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 25px 0;
+}
+
+/* Confirmaciones */
+.confirmaciones {
+    background-color: white;
+    color: #1e2432;
+    width: 50%;
+    border-radius: 20px;
+    padding: 12px;
+    min-height: 180px;
+    margin: 0 auto;
+}
+
+/* Lista */
+ul {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Elementos de la lista */
+li {
+    margin: 12px;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Subtítulo */
+h3 {
+    font-size: 2em;
+}
+
+/* Adaptación a pantallas pequeñas */
+@media (max-width: 700px) {
+    .datos-pedido {
+        flex-direction: column;
+    }
+
+    .confirmaciones {
+        width: 85%;
+    }
+
+    input {
+        font-size: 1rem;
+    }
+}

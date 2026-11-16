@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cargar Pedidos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Delivery De Compras De Libros</h1>
+        <hr>
+
+     <h3>Datos del pedido</h3>
+
+        <div class="datos-pedido">
+            <input type="text" id="titulo" placeholder="Nombre del libro">
+            <input type="text" id="autor" placeholder="Nombre del autor">
+            <input type="text" id="direccion" placeholder="Dirección del comprador">
+        </div>
+
+        <div class="btn-container">
+            <button id="cargar">CARGAR</button>
+            <button id="refrescar">REFRESCAR <i class="fa-solid fa-rotate"></i></button>
+        </div>
+
+        <div class="confirmaciones">
+            <ul></ul>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
